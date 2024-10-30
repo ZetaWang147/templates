@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{fontspec}  % 字体选择
+\usepackage{xeCJK}     % 中文支持
+\usepackage{hyperref}  % 超链接支持
+\usepackage{cite}      % 参考文献=
+\usepackage{amsthm}%提供proof环境
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{enumitem}%修改列表格式
+
+\title{文档标题}
+\author{作者姓名}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+这是文档的摘要部分。
+\end{abstract}
+
+\tableofcontents % 生成目录
+
+\subsection{引言}
+引言部分内容。这里介绍研究的背景和目的。
+
+\section{相关工作}
+相关工作部分内容，回顾与本研究相关的文献。
+
+\section{方法}
+描述研究的方法和步骤。
+
+\section{结果}
+展示和讨论实验结果。
+
+\section{结论}
+总结研究结果，并提出未来的研究方向。
+
+\section*{参考文献} % 无编号的参考文献部分
+\bibliographystyle{plain} % 参考文献样式
+\bibliography{references}  % 指向参考文献文件（references.bib）
+
+\end{document}
